@@ -12,10 +12,7 @@ int main()
     int S = 0;
     int i = 1;
 
-    while (i < 10) {
-        i++;
-        S += i;
-    }
+    while ((S += i ++) < 50);
 
     cout << S << endl;
     
